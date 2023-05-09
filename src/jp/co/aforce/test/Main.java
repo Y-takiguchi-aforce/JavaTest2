@@ -23,8 +23,8 @@ public class Main {
 		//8
 		pt.getMessage("nanashi", false);
 		//9
-		String[] array = {"JavaScript", "HTML", "CSS"};
-		System.out.println(pt.getLongestString(array));
+		String[] array2 = {"JavaScript", "HTML", "CSS"};
+		System.out.println(pt.getLongestString(array2));
 		//10
 		System.out.println(pt.isAdult(19));
 	}

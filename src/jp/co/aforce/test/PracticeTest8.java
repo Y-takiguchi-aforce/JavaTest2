@@ -62,15 +62,15 @@ public class PracticeTest8 {
 	
 	//9
 	public String getLongestString(String[] array) {
-		Integer a = array[0].length();
-		String mojiMax = null;
+		int a = array[0].length();
+		int mojiMax = 0;
 		for(int i = 1; i < array.length; i++) {
 			if(a < array[i].length()) {
 				a = array[i].length();
+				mojiMax = a;
 			}
-			mojiMax = a.toString();
 		}
-		return mojiMax;
+		return array[mojiMax];
 	}
 	
 	//10
