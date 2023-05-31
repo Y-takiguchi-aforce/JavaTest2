@@ -21,12 +21,13 @@ public class Main {
 		//7
 		System.out.println(pt.isEvenNumber(9));
 		//8
-		pt.getMessage("nanashi", false);
+		System.out.println(pt.getMessage("nanashi", false));
 		//9
 		String[] array2 = {"JavaScript", "HTML", "CSS"};
 		System.out.println(pt.getLongestString(array2));
 		//10
-		System.out.println(pt.isAdult(19));
+		Person person = new Person("まゆこ",18);
+		System.out.println(pt.isAdult(person));
 	}
 
 }
